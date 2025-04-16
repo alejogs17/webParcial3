@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />    
+    <title> Parcial #3</title>
+    <style type="text/css">
+        .Titulo {
+            text-align: center;
+            font-size: x-large;  
+        }
+        .Imagen {
+            text-align: center;
+        }
+        .Tabla {
+            width: 100%;
+            border-style: solid;
+            border-width: 3px;
+        }
+        .Imput {
+            text-align: center;
+            width: 200px;
+        }
+        .Texto {
+            text-align: right;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table align="center" class="Tabla">
+            <tr>
+                <td colspan="4" class="Titulo">
+                    <b>
+                        Pracial # 3
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 200px; text-align: center " colspan="4">
+                    <b>Integrantes:</b> Johan Esteban Arias y Sebastian Vargas Correa
+                </td>
+            </tr>
+            <tr class=" Imagen">
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="Texto" colspan="1">Codigo</td>
+                <td class="Imput"><input id="txtCodigo" type="text" minlength="3" class="Imput" /></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="Texto" colspan="1">Valor de la Hora</td>
+                <td class="Imput"><input id="txtVrHora" type="text" minlength="4" class="Imput" /></td>
+                <td class="Texto" colspan="1">Cantidad de Horas Trabajadas</td>
+                <td class="Imput"><input id="txtCantHoras" type="text" minlength="1" class="Imput" /></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+
+            <tr>
+                <td class="Texto" colspan="1">Valor del recargo 1</td>
+                <td class="Imput"><input id="txtVrRecargo1" type="text" minlength="4" class="Imput" /></td>
+                <td class="Texto" colspan="1">Valor del recargo 2</td>
+                <td class="Imput"><input id="txtVrRecargo2" type="text" minlength="4" class="Imput" /></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="Texto" colspan="1">Cantidad de Domicilios</td>
+                <td class="Imput"><input id="txtCantDom" type="text" minlength="4" class="Imput" /></td>
+                <td class="Texto" colspan="1">Valor de los Domicilios</td>
+                <td class="Imput"><input id="txtVrDom" type="text" minlength="4" class="Imput" /></td>
+                <td colspan="1"></td>
+            </tr>
+
+            <tr><td colspan="4"></td> </tr>
+            <tr><td colspan="4"></td></tr>
+
+            <tr>
+                <td colspan="2" class="Imput">
+                    <input class="Imput" id="btnLimpiar" type="button" value="Limpiar" />
+                </td>
+                <td colspan="2" class="Imput">
+                    <input class="Imput" id="btnProcesar" type="button" value="Procesar" />
+                </td>
+            </tr>
+            <tr><td colspan="4"></td> </tr>
+            <tr><td colspan="4"></td></tr>
+            <tr>
+                <td class="Texto" colspan="1">Salario Normal</td>
+                <td class="Imput"><input id="txtSalNorm" type="text" minlength="4" class="Imput" disabled/></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+
+            <tr>
+                <td class="Texto" colspan="1">Salario Extra (hasta 16 horas) </td>
+                <td class="Imput"><input id="txtSalExth16" type="text" minlength="4" class="Imput" disabled/></td>
+                <td class="Texto" colspan="1">Salario Extra (post 16 horas)</td>
+                <td class="Imput"><input id="txtSalExtd16" type="text" minlength="4" class="Imput" disabled/></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="Texto" colspan="1">Subtotal</td>
+                <td class="Imput"><input id="txtSubTot" type="text" minlength="4" class="Imput" disabled/></td>
+                <td class="Texto" colspan="1">Pago por domicilios</td>
+                <td class="Imput"><input id="txtPagoDom" type="text" minlength="4" class="Imput" disabled/></td>
+            </tr>
+            <tr>
+                <td class="Texto" colspan="1">Total</td>
+                <td class="Imput"><input id="txtTotal" type="text" minlength="4" class="Imput" disabled/></td>
+            </tr>
+        </table>
+    </div>
+    <script src="Scripts/jquery-3.7.0.min.js"></script>    
+    <script src="frmParcial3.js"></script>
+</body>
+</html>
